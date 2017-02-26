@@ -139,6 +139,7 @@
       },
 
       start: function(event) {
+        if(options.disableTouch) return;
         var touches;
 
         if (isMouseEvent(event)) {
